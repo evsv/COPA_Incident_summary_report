@@ -2,10 +2,11 @@ library(ggplot2)
 library(dplyr)
 library(lubridate)
 library(ggthemes)
+library(readr)
 
 # READING THE COPA DATASET
 
-COPA_Summary <- read_csv("C:/Users/vishw/OneDrive/Documents/Academics/UC Harris/Career Development/California Policy Labs/R_Assignments_Project/COPA_Summary.csv",
+COPA_Summary <- read_csv("./COPA_Summary.csv",
                          col_types = cols(COMPLAINT_DATE = col_date(format = "%m/%d/%Y %I:%M:%S %p")))
 
 
