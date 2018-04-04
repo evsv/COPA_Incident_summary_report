@@ -1,0 +1,36 @@
+---
+title: "Anaysing Trends in Complaints against the Chicago PD"
+author: "Vishwanath E.V.S"
+date: "1 April 2018"
+output: 
+  rmarkdown::html_document:
+    theme: cerulean
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Executive Summary
+
+The shooting of Laquan Macdonald in 2014, and the subsequent handling of the case by the Chicago justice system, has placed the CPD under intense scrutiny. The aftermath of the shooting saw attempts at reform by the Mayor's office, which included training every officer in the use of tasers and threat de-escalation. 
+
+In this brief, we analyse data from the Civilian Office of Police Accountability to study the trends in complaints lodged against the Chicago Police Department. Our summary analysis reveals the following:
+
+* The top 5 complaint categories account for nearly 75% of the complaint volumes, of which "Excessive Force" and "Taser Notification" account for nearly 55% of complaint volumes
+* There is a marked downward trend in the number of complaints lodged at the COPA
+* Looking at the composition of complaints over time reveals a decrease in complaints regarding use of force. However, complaints regarding Tasers exhibit little to no downward trends 
+
+## Background
+
+
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
